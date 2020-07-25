@@ -2,7 +2,7 @@
 
 /* If the view port is equal to 340px or less than that */
 
-@media only screen and  (max-width:340px){
+@media only screen and  (max-width:530px){
 	.header_area .main-menu .navbar,
 	.header_area .main-menu .navbar .navbar-brand,
 	.site-main .subscribe-area .subscribe .subscribe-title,
