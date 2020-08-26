@@ -32,8 +32,8 @@
 
 	<header class="header_area">
 		<div class="main-menu">
-			<nav class="navbar navbar-expand-lg navbar-light">
-				<a class="navbar-brand" href="#"><img src="./img/logo.png"></a>
+			<nav class="navbar  navbar-expand-lg navbar-light ">
+				<a class="navbar-brand" href="#"><img src="./img/profilepics2.png"></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
 					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
@@ -79,11 +79,15 @@
 						<h4 class="title-text text-uppercase">Web Developer</h4>
 						<div class="site-buttons">
 							<div class="d-felx flex-row flex-wrap">
-								<button type="button" style="scroll-behavior:auto;" 
+								<a role="button" class="btn button secondary-button text-uppercase" href="#hireme"> Hire Me</a>
+								<a role="button" class="btn button secondary-button text-uppercase" 
+								href="https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:111ed8ca-6b75-431c-ac61-00347b332e14"> Get cv</a>
+								<!-- <button type="button" style="scroll-behavior:auto;"
 									class="btn button secondary-button text-uppercase">
 									<a href="#hireme">Hire Me</a>
-								</button>
-								<button type="button" onclick="scroll(0, 100);" class="btn button secondary-button text-uppercase">Get cv</button>
+								</button> -->
+								<!-- <button type="button" onclick="scroll(0, 100);"
+									class="btn button secondary-button text-uppercase">Get cv</button> -->
 							</div>
 						</div>
 					</div>
@@ -130,11 +134,8 @@
 								I am also skilled in developing dynamics web pages with WordPress.
 							</p>
 						</div>
-						<button type="button" class="btn button primary-button mr-4 text-uppercase">
-							<a
-								href="https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:111ed8ca-6b75-431c-ac61-00347b332e14">Download
-								CV</a>
-						</button>
+						<a role="button" class="btn button secondary-button text-uppercase" 
+						href="https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:111ed8ca-6b75-431c-ac61-00347b332e14"> Download cv</a>
 					</div>
 				</div>
 			</div>
@@ -210,7 +211,7 @@
 							<div class="d-flex flex-row flex-wrap call-area">
 								<span><i class="fas fa-phone-alt fa-3x px-3"></i></span>
 								<div class="call-now">
-									<a href="#" class="text-uppercase h4 font-roboto">Call Now</a>
+									<a href="tel:+2348166302447" class="text-uppercase h4 font-roboto">Call Now</a>
 									<span class="font-roboto py-2">(+234)-816-630-2447</span>
 								</div>
 							</div>
@@ -262,7 +263,7 @@
 									</h5>
 									<p class="card-text text-secondary">
 										I can gather and evaluate user requirements, in
-										collaboration with product managers and engineers,
+										collaboration with product managers
 
 									</p>
 								</div>
@@ -291,7 +292,7 @@
 									<h5 class="card-title text-uppercase font-roboto">Seo Optimize
 									</h5>
 									<p class="card-text text-secondary">
-										I can analyze and implements changes to websites so they are
+										I can implements changes to websites so they are
 										optimized for search engines
 									</p>
 								</div>
@@ -319,7 +320,7 @@
 					<button type="button" data-filter=".wordpress">WordPress</button>
 					<button type="button" data-filter=".php">PHP</button>
 				</div>
-				<div class="row grid">
+				<div class="row grid justify-content-center">
 					<div class="col-lg-4 col-md-6 col-sm-12 element-item python">
 						<div class="our-project">
 							<div class="img">
@@ -328,8 +329,8 @@
 								</a>
 							</div>
 							<div class="title py-4">
-								<h4 class="text-uppercase"><a
-										href="http://github.com/DosuSolomon">Inventory-Management</a>
+								<h4 class="text-uppercase">
+									<a href="http://github.com/DosuSolomon">Inventory Mgt system</a>
 								</h4>
 								<span class="text-secoondary">Python, Django</span>
 							</div>
@@ -343,7 +344,8 @@
 								</a>
 							</div>
 							<div class="title py-4">
-								<h4 class="text-uppercase"> <a href="http://github.com/DosuSolomon">Dark-Mode
+								<h4 class="text-uppercase"> <a
+										href="http://github.com/DosuSolomon">Dark-Mode
 										calculator</a></h4>
 								<span class="text-secoondary">Javascript</span>
 							</div>
@@ -546,35 +548,6 @@
 		<!-- ############# End about me Area ######### -->
 
 
-		<!-- ############# Subscribe me Area ######### -->
-
-		<!-- <section class="subscribe-area" id="contact">
-			<div class="container subscribe">
-				<div class="row">
-					<div class="col-lg-12 text-center subscribe-title">
-						<h4 class="text-uppercase">Get In Touch</h4>
-						<p class="para">I'd love if you reached out to me. Even if it's just to say 'Hey'.
-							Don't hesitate!
-							Drop me a line and I'll get back to you</p>
-					</div>
-				</div>
-				<div class="d-sm-flex justify-content-center">
-					<form action="" class="w-50">
-						<div class="row d-flex flex-row flex-wrap">
-							<div class="col input-textbox">
-								<input type="email" id="textEmail" class="form-control" placeholder="Email">
-							</div>
-							<div class="col">
-								<div class="btn-submit">
-									<button type="submit" class="btn btn-success float-right">Subscribe</button>
-								</div>
-							</div>
-						</div>
-					</form>
-				</div>
-			</div>
-		</section> -->
-		<!-- ############# End Subscribe me Area ######### -->
 
 		<!-- ############# End Subscribe me Area ######### -->
 		<section class="contact-section" id="hireme">
@@ -629,11 +602,7 @@
 															placeholder="Drop a message"></textarea>
 													</div>
 												</div>
-												<div class="form-group row">
-													<p class="text-center">We are sorry if you are experiecing any
-														problems. We will try our best to
-														reach you in 24h. </p>
-												</div>
+
 												<div class="form-group row">
 													<div class="col-md-4">
 													</div>
@@ -645,26 +614,7 @@
 										</div>
 										<div class="col-md-6">
 											<form>
-												<div class="form-group row">
-													<div class="col-xs-8 col-xs-offset-2 col-md-8 col-md-offset-3">
-														<label>Or you can reach us via</label>
-													</div>
-												</div>
-												<div class="form-group row">
-													<div class="col-md-8 col-md-offset-2">
-														<div class="social row">
-															<div class="btn-group btn-group-justified">
-																<a href="#" class="btn btn-primary"><span
-																		class="fa fa-2x fa-facebook"></span></a>
-																<!-- <a href="#" class="btn btn-danger"><span class="fa fa-2x fa-google"></span></a> -->
-																<a href="#" class="btn btn-primary"><span
-																		class="fa fa-2x fa-linkedin"></span></a>
-																<a href="#" class="btn btn-info"><span
-																		class="fa fa-2x fa-twitter"></span></a>
-															</div>
-														</div>
-													</div>
-												</div>
+
 												<div class="form-group row">
 													<label class="col-xs-3 col-xs-offset-5 col-md-3 col-md-offset-5">
 														<h5>Address</h5>
@@ -701,9 +651,9 @@
 
 	<footer class="footer-area">
 		<div class="">
-			<div class="site-logo text-center py-4">
-				<a href="#"><img src="img/logo.png" alt="logo" srcset=""></a>
-			</div>
+			<!-- <div class="site-logo text-center py-4">
+				<a href="#"><img src="img/profilepics2.png" alt="logo" srcset=""></a>
+			</div> -->
 			<div class="social text-center">
 				<h5 class="text-uppercase">Follow Me</h5>
 				<a href="#"><i class="fab fa-facebook"></i></a>
@@ -714,7 +664,7 @@
 			<div class="copyrights text-center">
 				<p class="para">
 					Copyright &copy; 2020 All rights | This template is made by
-					<a href="#"><span style="color: var(--roboto);">Web Pro</span></a>
+					<a href="#"><span style="color: var(--roboto);">Me</span></a>
 				</p>
 			</div>
 		</div>

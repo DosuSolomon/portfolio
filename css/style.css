@@ -36,9 +36,13 @@
 /* ###### End Navigation ###### */
 
 /* Banner area */
-
+.header_area .main-menu .navbar .navbar-brand img{
+      height: 50px;
+      width: 50px;
+      border-radius: 100px;
+}
 .site-main .site-banner{
-      background: url(../img/banner/home-banner.png) no-repeat 0% 50%;
+      /* background: url(../img/banner/home-banner.png) no-repeat 0% 50%; */
 }
 
 .site-main .site-banner .site-title h3{
@@ -274,7 +278,8 @@
 
 footer.footer-area{
       padding: 3rem 0;
-      background: wheat;
+      background: #d1c4e9;
+      
       margin-top: 5rem;
 
 
@@ -287,15 +292,24 @@ footer.footer-area .social h5{
 footer.footer-area .social a > i{
       font-size: 32px;
       padding: 2rem;
-      color: var(--border-color);
+      /* color: var(--title-color); */
 }
 footer.footer-area .social a:hover > i{
-      color: var(--primary-color);
+      color: var(--primary-color)
+}
+.footer-area .para{
+      color: black;
+}
+.footer-area .social h5{
+      color: black;
+}
+.footer-area .social a>i{
+      color: white;
 }
 /* Footer Area */
 
 
-/* Footer Area */
+/* Contact Area */
 .contact-area {
       background: url("../img/banner/background-image.jpg");
       background-repeat: no-repeat;
@@ -342,4 +356,6 @@ margin: auto;
 width: 100%;
 }
 /* Footer Area */
-
+.call-now a{
+      text-decoration: none;
+}
