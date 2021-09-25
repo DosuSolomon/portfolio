@@ -52,6 +52,14 @@
 	.site-main .project-area .button-click .active{
 		margin-left: 1.5rem;
 	}
+	.site-main .project-area .our-project .title a{
+		font-size: 1.3rem;
+		font-style: var(--roboto);
+
+	}
+	.site-main .brand-area .gap{
+		margin:2rem 0rem;
+	}
 	
 
 }

@@ -278,7 +278,8 @@
 
 footer.footer-area{
       padding: 3rem 0;
-      background: #d1c4e9;
+      /* background: #d1c4e9; */
+      background: #c5c4c7;
       
       margin-top: 5rem;
 
@@ -356,6 +357,6 @@ margin: auto;
 width: 100%;
 }
 /* Footer Area */
-.call-now a{
+.call-now a, .title a {
       text-decoration: none;
 }
